@@ -1,0 +1,9 @@
+diff a/web/src/main/java/com/limi/web/service/ConfigService.java b/web/src/main/java/com/limi/web/service/ConfigService.java	(rejected hunks)
+@@ -15,7 +15,6 @@
+ 
+     @Value("${messages.name}")
+     private String name;
+-    @Value("${title}")
+     @Value("${messages.title}")
+     private String tile;
+     @Value("${messages.desc}")
